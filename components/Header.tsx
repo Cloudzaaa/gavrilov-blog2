@@ -50,7 +50,7 @@ const Header = () => {
                     isSelected ? 'text-primary-500' : 'text-gray-900 dark:text-gray-100'
                   }  sm:block`}
                 >
-                  {t(`${link.title.toLowerCase()}`)}
+                  {t(`${link.title}`)}
                 </Link>
               )
             })}
