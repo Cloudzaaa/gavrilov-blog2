@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Рассуждаю и делюсь полезной информацией',
   language: 'ru',
   siteUrl: 'https://yagavrilov.com',
-  siteRepo: 'https://github.com/Cloudzaaa/gavrilov-blog',
+  siteRepo: 'https://github.com/Cloudzaaa/gavrilov-blog2',
   siteLogo: '/static/images/avatar.jpg',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
