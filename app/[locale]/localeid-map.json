@@ -1,50 +1,58 @@
 {
   "codesample": {
-    "ru": "posts/code-sample",
-    "en": "articles/exemple-code"
+    "ru": "ru/code-sample",
+    "en": "en/exemple-code"
   },
   "derivingols": {
-    "ru": "posts/deriving-ols-estimator",
-    "en": "articles/derivation-estimateur-ols"
+    "ru": "ru/deriving-ols-estimator",
+    "en": "en/derivation-estimateur-ols"
   },
   "mardownguide": {
-    "ru": "posts/github-markdown-guide",
-    "en": "articles/guide-github-markdown"
+    "ru": "ru/github-markdown-guide",
+    "en": "en/guide-github-markdown"
   },
   "nextjsimagesguide": {
-    "ru": "posts/guide-to-using-images-in-nextjs",
-    "en": "articles/guide-utilisation-images-nextjs"
+    "ru": "ru/guide-to-using-images-in-nextjs",
+    "en": "en/guide-utilisation-images-nextjs"
   },
   "canadapictures": {
-    "ru": "posts/images-du-canada",
-    "en": "articles/pictures-of-canada"
+    "ru": "ru/images-du-canada",
+    "en": "en/pictures-of-canada"
   },
   "introducingstarterblogi18n": {
-    "ru": "posts/internationalization-v2",
-    "en": "articles/internationalisation-v2"
+    "ru": "ru/internationalization-v2",
+    "en": "en/internationalisation-v2"
   },
   "introducingstarterblog": {
-    "ru": "posts/introducing-tailwind-nextjs-starter-blog",
-    "en": "articles/presentation-blog-starter-tailwind-nextjs"
+    "ru": "ru/introducing-tailwind-nextjs-starter-blog",
+    "en": "en/presentation-blog-starter-tailwind-nextjs"
   },
   "myfancytitle": {
-    "ru": "posts/my-fancy-title",
-    "en": "articles/mon-titre-fancy"
+    "ru": "ru/my-fancy-title",
+    "en": "en/mon-titre-fancy"
   },
   "newfeaturesv1": {
-    "ru": "posts/new-features-in-v1",
-    "en": "articles/nouvelles-fonctionnalites-v1"
+    "ru": "ru/new-features-in-v1",
+    "en": "en/nouvelles-fonctionnalites-v1"
   },
   "releasev2": {
-    "ru": "posts/release-of-tailwind-nextjs-starter-blog-v2.0",
-    "en": "articles/presentation-starter-blog-tailwind-nextjs-v2.0"
+    "ru": "ru/release-of-tailwind-nextjs-starter-blog-v2.0",
+    "en": "en/presentation-starter-blog-tailwind-nextjs-v2.0"
   },
   "thetimemachine": {
-    "ru": "posts/the-time-machine",
-    "en": "articles/la-machine-a-remonter-le-temps"
+    "ru": "ru/the-time-machine",
+    "en": "en/la-machine-a-remonter-le-temps"
   },
   "nestedroutes": {
-    "ru": "posts/nested-route/introducing-multi-part-posts-with-nested-routing",
-    "en": "articles/route-imbriquee/presentation-publications-en-plusieurs-parties-routage-imbrique"
+    "ru": "ru/nested-route/introducing-multi-part-posts-with-nested-routing",
+    "en": "en/route-imbriquee/presentation-publications-en-plusieurs-parties-routage-imbrique"
+  },
+  "blogbirthday": {
+    "ru": "ru/blog-birthday",
+    "en": "en/blog-birthday"
+  },
+  "baseskills": {
+    "ru": "ru/2024/base-skills",
+    "en": "en/2024/base-skills"
   }
 }
