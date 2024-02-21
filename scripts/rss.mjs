@@ -7,7 +7,7 @@ import tagData from '../app/[locale]/tag-data.json' assert { type: 'json' }
 import { allBlogs } from '../.contentlayer/generated/index.mjs'
 import { sortPosts } from 'pliny/utils/contentlayer.js'
 
-const defaultLocale = 'en'
+const defaultLocale = 'ru'
 
 const generateRssItem = (config, post, locale) => `
   <item>
