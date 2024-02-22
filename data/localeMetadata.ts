@@ -3,8 +3,8 @@ type Metadata = {
 }
 
 export const maintitle: Metadata = {
-  en: 'Artem Gavrilov Blog',
-  ru: 'Блог Артема Гаврилова',
+  en: 'Artem Gavrilov',
+  ru: 'Артем Гаврилов',
 }
 
 export const maindescription: Metadata = {
