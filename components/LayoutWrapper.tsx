@@ -9,7 +9,7 @@ interface LayoutWrapperProps {
 }
 
 const inter = Inter({
-  subsets: ['latin'],
+  subsets: ['latin', 'cyrillic'],
 })
 
 const LayoutWrapper = ({ children }: LayoutWrapperProps) => {

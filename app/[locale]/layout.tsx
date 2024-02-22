@@ -1,7 +1,7 @@
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 
-import { Space_Grotesk } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider } from '@/components/search/SearchProvider'
 import Header from '@/components/Header'
@@ -19,10 +19,10 @@ export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
 
-const space_grotesk = Space_Grotesk({
-  subsets: ['latin'],
+const inter = Inter({
+  subsets: ['latin', 'cyrillic'],
   display: 'swap',
-  variable: '--font-space-grotesk',
+  variable: '--font-space-inter',
 })
 
 export async function generateMetadata({ params: { locale } }): Promise<Metadata> {
@@ -78,7 +78,7 @@ export default function RootLayout({
     <html
       lang={locale}
       dir={dir(locale)}
-      className={`${space_grotesk.variable} scroll-smooth`}
+      className={`${inter.variable} scroll-smooth`}
       suppressHydrationWarning
     >
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
