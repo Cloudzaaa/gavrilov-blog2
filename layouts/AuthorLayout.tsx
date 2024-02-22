@@ -11,7 +11,7 @@ interface AuthorLayoutProps {
   content: Omit<Authors, '_id' | '_raw' | 'body'>
   params: { locale: LocaleTypes }
 }
-@
+
 export default async function AuthorLayout({
   children,
   content,
