@@ -16,8 +16,8 @@ import { PostSeriesBox } from '@/components/PostseriesBox'
 import Share from '@/components/Share'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
-const discussUrl = (path) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
+// const discussUrl = (path) =>
+//   `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -112,10 +112,10 @@ export default async function PostLayout({
               )}
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
               <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
-                <Link href={discussUrl(path)} rel="nofollow">
-                  {t('twitter')}
-                </Link>
-                {` • `}
+                {/*<Link href={discussUrl(path)} rel="nofollow">*/}
+                {/*  {t('twitter')}*/}
+                {/*</Link>*/}
+                {/*{` • `}*/}
                 <Link href={editUrl(filePath)}>{t('github')}</Link>
               </div>
               <Share title={title} slug={slug} />
