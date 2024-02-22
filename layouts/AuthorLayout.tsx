@@ -11,22 +11,14 @@ interface AuthorLayoutProps {
   content: Omit<Authors, '_id' | '_raw' | 'body'>
   params: { locale: LocaleTypes }
 }
-
+@
 export default async function AuthorLayout({
   children,
   content,
   params: { locale },
 }: AuthorLayoutProps) {
-  const { name,
-    avatar,
-    occupation,
-    company,
-    linkedin,
-    instagram,
-    email,
-    telegram,
-    youtube
-  } = content
+  // prettier-ignore
+  const { name, avatar, occupation, company, linkedin, instagram, email, telegram, youtube } = content
   const { t } = await createTranslation(locale, 'about')
 
   return (
