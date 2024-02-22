@@ -20,6 +20,7 @@ const siteMetadata = {
   youtube: 'http://www.youtube.com/channel/UCrr3S0t1PUZWj3LUxFzbcQw?sub_confirmation=1',
   linkedin: 'https://www.linkedin.com/in/artem-gavrilov/',
   locale: 'ru',
+  theme: 'light',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
