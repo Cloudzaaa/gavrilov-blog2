@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/Cloudzaaa/gavrilov-blog2',
   siteLogo: '/static/images/avatar.jpg',
   image: '/static/images/avatar.jpg',
-  // socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/twitter-card.png',
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'cloudst1@mail.ru',
   github: 'https://github.com/cloudzaaa',
