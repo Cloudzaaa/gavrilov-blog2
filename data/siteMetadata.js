@@ -4,7 +4,7 @@ const siteMetadata = {
   author: 'Артем Гаврилов',
   headerTitle: 'Гаврилов пишет',
   description: 'Рассуждаю и делюсь полезной информацией',
-  language: 'ru',
+  language: 'en-us',
   siteUrl: 'https://yagavrilov.com',
   siteRepo: 'https://github.com/Cloudzaaa/gavrilov-blog2',
   siteLogo: '/static/images/avatar.jpg',
