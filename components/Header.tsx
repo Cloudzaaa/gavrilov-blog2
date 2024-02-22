@@ -14,7 +14,6 @@ import type { LocaleTypes } from 'app/[locale]/i18n/settings'
 
 const Header = () => {
   const locale = useParams()?.locale as LocaleTypes
-  console.warn(locale)
   const { t } = useTranslation(locale, 'common')
   // Get current page path
   const pathname = usePathname()
