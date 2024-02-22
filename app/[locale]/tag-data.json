@@ -18,7 +18,9 @@
     "writings": 1,
     "book": 1,
     "reflection": 1,
-    "multi-author": 1
+    "обавторе": 1,
+    "рефлексия": 1,
+    "мысли": 1
   },
   "en": {
     "markdown": 1,
@@ -38,7 +40,9 @@
     "feature": 2,
     "writings": 1,
     "book": 1,
+    "multi-author": 1,
+    "aboutme": 1,
     "reflection": 1,
-    "multi-author": 1
+    "thoughts": 1
   }
 }

@@ -48,7 +48,7 @@ export default async function AuthorLayout({
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="instagram" href={instagram} />
               <SocialIcon kind="telegram" href={telegram} />
-              <SocialIcon kind="telegram" href={youtube} />
+              <SocialIcon kind="youtube" href={youtube} />
             </div>
           </div>
           <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
