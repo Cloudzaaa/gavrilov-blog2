@@ -17,7 +17,8 @@ export default async function AuthorLayout({
   content,
   params: { locale },
 }: AuthorLayoutProps) {
-  const { name, avatar, occupation, company, linkedin, instagram, email, telegram, youtube } = content
+  const { name, avatar, occupation, company, linkedin, instagram, email, telegram, youtube } =
+    content
   const { t } = await createTranslation(locale, 'about')
 
   return (
