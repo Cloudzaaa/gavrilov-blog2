@@ -53,7 +53,7 @@ export const KBarSearchProvider: FC<{
           name: post.title,
           keywords: post?.summary || '',
           section: 'Content',
-          subtitle: formatDate(post.date, 'en-US'),
+          subtitle: formatDate(post.date, 'ru-RU'),
           perform: () => router.push('/' + post.path),
         })
       }
